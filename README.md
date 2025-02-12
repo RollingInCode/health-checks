@@ -51,23 +51,23 @@ endpoints:
 
 ### How to Run
     1. Save the Script
-Copy the health-check Python script into a file, for example `check_health.py.`
+Copy the health-check Python script into a file, for example `health-check.py.`
 
     2. Ensure the Script is Executable (optional, on Linux/macOS):
 
-`chmod +x check_health.py`
+`chmod +x health-check.py`
 
     3. Run the Script with Your YAML File
 
 `
-python check_health.py /path/to/endpoints.yaml
+python health-check.py /path/to/endpoints.yaml
 `
 
 Or if you made it executable:
 
 
 ```bash
-./check_health.py /path/to/endpoints.yaml
+./health-check.py /path/to/endpoints.yaml
 ```
 The script will:
 * Load endpoint definitions from the specified file.
